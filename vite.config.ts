@@ -8,6 +8,13 @@ export default defineConfig({
   server: {
     port: 3001,
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "./src/styles/app.scss";`,
+      },
+    },
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

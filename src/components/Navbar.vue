@@ -1,6 +1,6 @@
 <template>
   <header class="p-8">
-    <h1 class="text-2xl font-medium ml-4">James Schuler</h1>
+    <h1 class="text-3xl font-medium ml-4 tracking-widest">James Schuler</h1>
   </header>
 </template>
 <script setup lang="ts"></script>
