@@ -1,5 +1,5 @@
 <template>
-  <div class="w-1/2 mt-10">
+  <div class="w-1/2 pt-48">
     <div class="w-xl mx-auto">
       <h1 class="text-5xl font-semibold leading-normal">
         Hello! My name is James Schuler.
@@ -13,7 +13,7 @@
 
       <div class="flex justify-center flex-col items-center mt-10">
         <button
-          class="text-white p-2 rounded-xl text-xl"
+          class="text-white p-2 rounded-xl text-xl font-semibold"
           id="download-resume-btn"
         >
           Resume
