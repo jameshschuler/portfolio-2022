@@ -17,7 +17,7 @@ defineProps({
   },
   iconSize: {
     type: String,
-    required: true,
+    required: false,
     default: "fa-lg",
   },
 });

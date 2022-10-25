@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "name": "Swol",
+      "image": "swol.png",
+      "githubUrl": "https://github.com/jameshschuler/swol",
+      "websiteUrl": "https://www.getswol.app/",
+      "tags": []
+    },
+    {
+      "name": "DougScore Viewer",
+      "image": "dougscoreviewer.png",
+      "githubUrl": "https://github.com/jameshschuler/doug-score-viewer",
+      "websiteUrl": "doug-score-viewer.vercel.app/",
+      "tags": []
+    },
+    {
+      "name": "Portfolio 2022",
+      "image": "dougscoreviewer.png",
+      "githubUrl": "https://github.com/jameshschuler/portfolio-2022",
+      "websiteUrl": "https://www.jamesschuler.io/",
+      "tags": []
+    }
+  ]
+}
