@@ -4,9 +4,9 @@
   <Footer />
 </template>
 <script setup lang="ts">
-import ContentContainer from "./components/ContentContainer.vue";
-import Footer from "./components/Footer.vue";
-import Navbar from "./components/Navbar.vue";
+import ContentContainer from './components/ContentContainer.vue';
+import Footer from './components/Footer.vue';
+import Navbar from './components/Navbar.vue';
 </script>
 <style lang="scss">
 html,
@@ -14,6 +14,16 @@ body {
   width: 100%;
   height: 100%;
   background-color: #f5f5f5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 #app {

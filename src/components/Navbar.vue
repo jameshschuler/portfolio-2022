@@ -3,8 +3,12 @@
     <h1 class="text-4xl font-medium ml-4 tracking-widest">James Schuler</h1>
     <nav>
       <ul class="flex text-white text-3xl items-center w-lg tracking-wide">
-        <li class="mr-12 cursor-pointer">About</li>
-        <li class="cursor-pointer">Projects</li>
+        <li class="mr-12 cursor-pointer">
+          <a href="#about">About</a>
+        </li>
+        <li class="cursor-pointer">
+          <a href="#projects-list">Projects</a>
+        </li>
       </ul>
     </nav>
   </header>
