@@ -5,13 +5,11 @@
       <figure>
         <img :src="getImageUrl(project.image)" :alt="project.name" />
       </figure>
-      <div class="links flex flex-col w-full mt-5 text-lg">
-        <a
-          class="p-4 my-2 text-center"
-          target="_blank"
-          :href="project.githubUrl"
-          >View Code</a
-        >
+      <div class="tags mt-4 mb-2 flex">
+        <Tag v-for="tag in project.tags" class="mr-2" :icon="tag" />
+      </div>
+      <div class="links flex flex-col w-full text-lg">
+        <a class="p-4 my-2 text-center" target="_blank" :href="project.githubUrl">View Code</a>
         <a
           class="p-4 my-2 text-center"
           target="_blank"
@@ -24,8 +22,9 @@
   </div>
 </template>
 <script setup lang="ts">
-import { PropType } from "vue";
-import { ProjectModel } from "../models";
+import Tag from '@/components/Tag.vue';
+import { PropType } from 'vue';
+import { ProjectModel } from '../models';
 
 defineProps({
   project: {

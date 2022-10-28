@@ -5,21 +5,29 @@
       "image": "swol.png",
       "githubUrl": "https://github.com/jameshschuler/swol",
       "websiteUrl": "https://www.getswol.app/",
-      "tags": []
+      "tags": ["typescript-plain colored", "vuejs-plain colored", "postgresql-plain colored"]
     },
     {
       "name": "DougScore Viewer",
       "image": "dougscoreviewer.png",
       "githubUrl": "https://github.com/jameshschuler/doug-score-viewer",
       "websiteUrl": "doug-score-viewer.vercel.app/",
-      "tags": []
+      "tags": [
+        "typescript-plain colored",
+        "vuejs-plain colored",
+        "bulma-plain colored",
+        "dotnetcore-plain colored",
+        "csharp-plain colored",
+        "azure-plain colored",
+        "postgresql-plain colored"
+      ]
     },
     {
       "name": "Portfolio 2022",
       "image": "portfolio.png",
       "githubUrl": "https://github.com/jameshschuler/portfolio-2022",
       "websiteUrl": "https://www.jamesschuler.io/",
-      "tags": []
+      "tags": ["typescript-plain colored", "vuejs-plain colored"]
     }
   ]
 }

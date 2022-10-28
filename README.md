@@ -12,3 +12,4 @@
 - Animate email copy to clipboard
 - responsive styles
 - Add resume link to resume button
+- Updated about me summary
