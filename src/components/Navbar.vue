@@ -1,8 +1,8 @@
 <template>
-  <header class="p-8 flex justify-between items-center">
-    <h1 class="text-4xl font-medium ml-4 tracking-widest">James Schuler</h1>
-    <nav>
-      <ul class="flex text-white text-3xl items-center w-lg tracking-wide">
+  <header class="py-8 px-14 flex justify-between items-center">
+    <h1 class="text-4xl font-medium tracking-widest">James Schuler</h1>
+    <nav class="<md:hidden">
+      <ul class="flex justify-end text-white text-3xl items-center w-lg tracking-wide">
         <li class="mr-12 cursor-pointer">
           <a href="#about">About</a>
         </li>
