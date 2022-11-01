@@ -3,9 +3,10 @@
     <div class="w-xl mx-auto">
       <h1 class="text-5xl font-semibold leading-normal">Hello! My name is James Schuler.</h1>
       <p class="my-4 leading-loose">
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.
+        I'm a full stack software engineer with 7 years of experience currently based in San Diego,
+        CA. I mostly work with .NET (C#) and Vue (JS, TS) building web apps and REST APIs, but
+        always looking for new tech to learn! In my free time I enjoy hanging out with my wife and
+        cat, weightlifting, hiking, trying new foods and beer, and attending a variety of concerts.
       </p>
 
       <div class="flex justify-center flex-col items-center mt-10">
@@ -25,19 +26,15 @@
             background-color="#0077b5"
             link="https://www.linkedin.com/in/jameshschuler/"
           />
-          <CircleIcon
-            icon="fa-regular fa-envelope"
-            background-color="#2ede40"
-            :custom-action="copyEmailToClipboard"
-          />
+          <CircleIconTooltip />
         </div>
       </div>
     </div>
   </div>
 </template>
 <script setup lang="ts">
-import { copyEmailToClipboard } from '../utils';
 import CircleIcon from './CircleIcon.vue';
+import CircleIconTooltip from './CircleIconTooltip.vue';
 </script>
 <style lang="scss" scoped>
 #download-resume-btn {

@@ -13,19 +13,14 @@
         background-color="#0077b5"
         link="https://www.linkedin.com/in/jameshschuler/"
       />
-      <CircleIcon
-        id="email-icon"
-        icon="fa-regular fa-envelope"
-        background-color="#2ede40"
-        :custom-action="copyEmailToClipboard"
-      />
+      <CircleIconTooltip id="email-icon" :inverted="true" />
     </div>
     <h1 class="text-3xl font-medium ml-4 <lg:ml-0 tracking-widest">2022</h1>
   </footer>
 </template>
 <script setup lang="ts">
 import CircleIcon from '@/components/CircleIcon.vue';
-import { copyEmailToClipboard } from '../utils';
+import CircleIconTooltip from './CircleIconTooltip.vue';
 </script>
 <style lang="scss" scoped>
 footer {
@@ -33,10 +28,6 @@ footer {
 
   h1 {
     color: #fff;
-  }
-
-  #email-icon {
-    border: 2px solid white;
   }
 }
 </style>
