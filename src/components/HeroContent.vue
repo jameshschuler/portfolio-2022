@@ -1,10 +1,10 @@
 <template>
-  <div class="w-1/2 pt-48" id="about">
+  <div class="w-1/2 pt-48 mx-auto <lg:w-full" id="about">
     <div class="w-xl mx-auto">
       <h1 class="text-5xl font-semibold leading-normal">Hello! My name is James Schuler.</h1>
       <p class="my-4 leading-loose">
         I'm a full stack software engineer with 7 years of experience currently based in San Diego,
-        CA. I mostly work with .NET (C#) and Vue (JS, TS) building web apps and REST APIs, but
+        CA. I mostly work with .NET (C#) and Vue.js (TypeScript) building Web apps and Web APIs, but
         always looking for new tech to learn! In my free time I enjoy hanging out with my wife and
         cat, weightlifting, hiking, trying new foods and beer, and attending a variety of concerts.
       </p>

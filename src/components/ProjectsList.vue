@@ -8,8 +8,8 @@
 </template>
 <script setup lang="ts">
 import { ref } from 'vue';
+import data from '../data/projects.json';
 import { ProjectModel } from '../models';
-import data from '../projects.json';
 import Project from './Project.vue';
 
 const projects = ref<ProjectModel[]>(data.projects);

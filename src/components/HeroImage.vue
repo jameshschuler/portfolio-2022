@@ -1,5 +1,5 @@
 <template>
-  <div class="w-1/2">
+  <div class="w-1/2 wx-auto <lg:w-full">
     <figure class="w-2xl">
       <img src="../assets/background.svg" alt="" />
       <img class="me" src="../assets/me.png" />

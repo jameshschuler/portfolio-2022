@@ -1,5 +1,5 @@
 <template>
-  <div class="flex mt-5 <md:flex-col">
+  <div class="flex mt-5 <lg:flex-col">
     <HeroContent />
     <HeroImage />
   </div>
