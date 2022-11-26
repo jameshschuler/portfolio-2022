@@ -1,13 +1,5 @@
 # 2022 Portfolio
 
-## Projects
+## About
 
-- Swol
-- DougScore Tracker
-- Portfolio 2022
-- Scrumchum?
-
-### Todo
-
-- responsive styles
-- Add resume link to resume button
+Simple web app to highlight projects I've worked on in my free time.
