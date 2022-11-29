@@ -34,15 +34,8 @@
       "tags": ["typescript-plain colored", "vuejs-plain-wordmark colored"]
     },
     {
-      "name": "Portfolio 2022",
-      "image": "portfolio.png",
-      "githubUrl": "https://github.com/jameshschuler/portfolio-2022",
-      "websiteUrl": "https://www.jamesschuler.io/",
-      "tags": ["typescript-plain colored", "vuejs-plain-wordmark colored"]
-    },
-    {
       "name": "PokéTyper",
-      "image": "portfolio.png",
+      "image": "poketyper.png",
       "githubUrl": "https://github.com/jameshschuler/poke-typer",
       "websiteUrl": "https://poketyper.onrender.com/",
       "tags": ["typescript-plain colored", "vuejs-plain-wordmark colored"]
