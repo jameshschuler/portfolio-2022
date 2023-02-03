@@ -11,7 +11,6 @@
 figure {
   position: relative;
   .me {
-    //position: absolute;
     height: 650px;
     left: calc(50% - 150px);
     top: 100px;
