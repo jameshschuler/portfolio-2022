@@ -16,7 +16,7 @@
 <script setup lang="ts"></script>
 <style lang="scss" scoped>
 header {
-  background-color: #2ede40;
+  background-color: $green;
 
   h1 {
     color: #fff;

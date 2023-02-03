@@ -15,7 +15,9 @@
       />
       <CircleIconTooltip id="email-icon" :inverted="true" />
     </div>
-    <h1 class="text-3xl font-medium ml-4 <lg:ml-0 tracking-widest">2022</h1>
+    <h1 class="text-3xl font-medium ml-4 <lg:ml-0 tracking-widest">
+      {{ new Date().getFullYear() }}
+    </h1>
   </footer>
 </template>
 <script setup lang="ts">
@@ -24,7 +26,7 @@ import CircleIconTooltip from './CircleIconTooltip.vue';
 </script>
 <style lang="scss" scoped>
 footer {
-  background-color: #2ede40;
+  background-color: $green;
 
   h1 {
     color: #fff;

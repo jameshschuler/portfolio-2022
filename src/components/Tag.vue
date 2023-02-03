@@ -1,13 +1,11 @@
 <template>
-  <div class="tag">
-    <span>
-      <i :class="`devicon-${icon}`" class="text-3xl"></i>
-    </span>
+  <div class="tag mb-5 mx-1">
+    <span class="px-4 py-2 rounded-md border-2 border-gray-500 text-sm">{{ text }}</span>
   </div>
 </template>
 <script setup lang="ts">
 defineProps({
-  icon: {
+  text: {
     type: String,
     required: true,
   },

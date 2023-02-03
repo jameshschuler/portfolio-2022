@@ -4,7 +4,7 @@
     <CircleIcon
       :class="{ inverted: inverted }"
       icon="fa-regular fa-envelope"
-      background-color="#2ede40"
+      background-color="#20ab2f"
       :custom-action="handleEmailClick"
     />
   </div>

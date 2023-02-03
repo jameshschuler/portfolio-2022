@@ -5,40 +5,35 @@
       "image": "swol.png",
       "githubUrl": "https://github.com/jameshschuler/swol",
       "websiteUrl": "https://www.getswol.app/",
-      "tags": [
-        "typescript-plain colored",
-        "vuejs-plain-wordmark colored",
-        "postgresql-plain colored"
-      ]
+      "tags": ["TypeScript", "Vue.js", "PostgreSQL", "Supabase", "Vite", "PWA"]
     },
     {
       "name": "DougScore Viewer",
       "image": "dougscoreviewer.png",
       "githubUrl": "https://github.com/jameshschuler/doug-score-viewer",
       "websiteUrl": "doug-score-viewer.vercel.app/",
-      "tags": [
-        "typescript-plain colored",
-        "vuejs-plain-wordmark colored",
-        "bulma-plain colored",
-        "dotnetcore-plain colored",
-        "csharp-plain colored",
-        "azure-plain colored",
-        "postgresql-plain colored"
-      ]
+      "tags": ["TypeScript", "Vue.js", "Bulma", ".Net Core", "C#", "Azure", "PostgreSQL", "Vite"]
     },
     {
       "name": "Portfolio 2022",
       "image": "portfolio.png",
       "githubUrl": "https://github.com/jameshschuler/portfolio-2022",
       "websiteUrl": "https://www.jamesschuler.io/",
-      "tags": ["typescript-plain colored", "vuejs-plain-wordmark colored"]
+      "tags": ["TypeScript", "Vue.js", "Vite", "WindiCSS"]
     },
     {
       "name": "PokéTyper",
       "image": "poketyper.png",
       "githubUrl": "https://github.com/jameshschuler/poke-typer",
       "websiteUrl": "https://poketyper.onrender.com/",
-      "tags": ["typescript-plain colored", "vuejs-plain-wordmark colored"]
+      "tags": ["TypeScript", "Vue.js", "Vite", "PWA"]
+    },
+    {
+      "name": "Bob's Burgers Episode of the Day",
+      "image": "",
+      "githubUrl": "https://github.com/jameshschuler/bobs-burgers-episode-of-the-day",
+      "websiteUrl": "https://bobs-burgers-episode-of-the-day.onrender.com/",
+      "tags": ["TypeScript", "Vue.js", "Vite"]
     }
   ]
 }
