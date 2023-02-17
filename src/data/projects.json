@@ -34,6 +34,13 @@
       "githubUrl": "https://github.com/jameshschuler/bobs-burgers-episode-of-the-day",
       "websiteUrl": "https://bobs-burgers-episode-of-the-day.onrender.com/",
       "tags": ["TypeScript", "Vue.js", "Vite"]
+    },
+    {
+      "name": "GoGo! San Diego",
+      "image": "",
+      "githubUrl": "https://github.com/jameshschuler/go-go-san-diego",
+      "websiteUrl": "",
+      "tags": ["JavaScript", "TypeScript", "React Native", "Deno", "Oak"]
     }
   ]
 }
