@@ -30,7 +30,7 @@
     },
     {
       "name": "Bob's Burgers Episode of the Day",
-      "image": "",
+      "image": "bobsburgers.png",
       "githubUrl": "https://github.com/jameshschuler/bobs-burgers-episode-of-the-day",
       "websiteUrl": "https://bobs-burgers-episode-of-the-day.onrender.com/",
       "tags": ["TypeScript", "Vue.js", "Vite"]
