@@ -6,7 +6,7 @@
     <div class="card-body bg-white p-6 flex-1 flex flex-col justify-around rounded-md">
       <h1 class="text-4xl font-medium">{{ project.name }}</h1>
       <div class="tags mt-6 flex flex-wrap">
-        <Tag v-for="tag in sortedTags" class="mr-2" :text="tag" />
+        <Tag v-for="tag in sortedTags" class="mr-2" :link="tag.link" :text="tag.text" />
       </div>
       <div class="links mt-4 flex justify-end">
         <a class="p-2" target="_blank" :href="project.githubUrl">
@@ -22,6 +22,7 @@
 <script setup lang="ts">
 import Tag from '@/components/Tag.vue';
 import { computed, PropType } from 'vue';
+import { tagLinks } from '../data';
 import { ProjectModel } from '../models';
 
 const { project } = defineProps({
@@ -32,14 +33,11 @@ const { project } = defineProps({
 });
 
 const sortedTags = computed(() => {
-  return project.tags.sort((a: string, b: string) => {
-    if (a < b) {
-      return -1;
-    }
-    if (a > b) {
-      return 1;
-    }
-    return 0;
+  return project.tags.sort().map((tag) => {
+    return {
+      text: tag,
+      link: tagLinks.get(tag.toLowerCase()) ?? '',
+    };
   });
 });
 
